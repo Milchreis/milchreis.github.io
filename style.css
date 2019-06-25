@@ -48,7 +48,17 @@ img {
 	font-size: 3em;
 }
 
-/* Custom Styles */
+a.more {
+	font-weight: 600;
+    text-decoration: none;
+	font-size: 0.8em;
+	transition: all 0.3s;
+}
+
+a.more:hover {
+	color: #e0e0e0;
+	font-size: 0.9em;
+}
 
 .light {
 	color: #ffffff;
