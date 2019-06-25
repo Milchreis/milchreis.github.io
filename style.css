@@ -2,6 +2,10 @@ body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .icons-social a {
 	color: #1E1E1E;
 }
