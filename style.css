@@ -10,6 +10,11 @@ body {
 	fill: #1E1E1E;
 }
 
+.container {
+	max-width: 70%;
+    margin: 0px auto;
+}
+
 
 @media (min-width: 576px) {
 	html {
@@ -41,6 +46,10 @@ body {
 
 /* Custom Styles */
 
+.light {
+	color: #ffffff;
+}
+
 .centered {
 	display: flex;
 	flex-direction: column;
@@ -59,6 +68,7 @@ body {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
+    /* transform: translate(21%, 0%); */
 }
 
 .icons-social i {
@@ -81,4 +91,21 @@ body {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.grid-container {
+	display: grid;
+}
+  
+.Preview {
+	display: grid;
+	grid-area: 1 / 2 / 1 / 2;
+}
+
+.round {
+	border-radius: 50px;
+}
+
+.box_shadow_strong {
+	box-shadow: 0px 0px 12px 6px #00000094;
 }
